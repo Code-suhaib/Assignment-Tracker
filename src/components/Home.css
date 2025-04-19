@@ -1,0 +1,38 @@
+/* Home.css */
+.section h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .list-group-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  .list-group-item input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  .btn-success {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  @media (max-width: 576px) {
+    .section {
+      padding: 15px;
+    }
+  }
+  
